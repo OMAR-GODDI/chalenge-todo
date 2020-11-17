@@ -1,0 +1,18 @@
+.App form{
+  width: 80%;
+  margin: 50px auto;
+}
+.todo-list{
+width: 80%;
+margin: 50px auto;
+}
+
+
+.todo-Card{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.done{
+  text-decoration: line-through;
+}

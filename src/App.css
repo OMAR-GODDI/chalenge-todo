@@ -1,18 +1,73 @@
-.App form{
-  width: 80%;
-  margin: 50px auto;
+.App{
+  background-color: rgb(8, 49, 73);
 }
-.todo-list{
-width: 80%;
-margin: 50px auto;
-}
-
-
-.todo-Card{
+.App-header{
+  min-height: 100vh;
   display: flex;
-  justify-content: space-between;
+  color: white;
+  flex-direction: column;
   align-items: center;
+  justify-content: center;
+  
 }
-.done{
-  text-decoration: line-through;
+.input {
+min-width: 90px;
+}
+input{
+  min-width: 300px;
+}
+.movie{
+  color: black;
+ font-size: 18px; 
+ margin: 0 10px;
+ 
+}
+.ListMovies{
+  display: flex;
+  flex-wrap: wrap;
+}
+.form{
+  display: grid;
+  margin-bottom: 20px;
+  
+}
+.label{
+  font-size: 1.2rem;
+  margin-bottom: 0.2rem;
+  text-align: center;
+}
+
+
+.input-1{
+  font-size: 1.6rem;
+  padding: 0.5rem 2rem;
+  line-height: 2.8rem;
+  border-radius: 20px;
+  border: 1px solid;
+  outline: none;
+  
+  
+}
+.button{
+  background-color:wheat;
+  border: 1px solid;
+  border-radius: 20px;
+  font-size: 1.4rem;
+}
+.button:hover{
+  background-color:rgb(97, 181, 223);
+}
+
+.star{
+  
+  color: rgb(223, 152, 21); 
+ 
+}
+
+.star-rating{
+  padding-left: 32%;
+  font-size: xx-large;
+  padding-bottom: 5%;
+  cursor: pointer;
+  
 }

@@ -42,7 +42,7 @@ const AddModel = ({addMovie}) => {
     <input type="text" onChange={e=>setPosterUrl(e.target.value)} name="posterUrl" />
     </div>
     <div>
-    <label className="input">Description </label>
+    <label className="input">Description</label>
     <input type="text" onChange={e=>setDecription(e.target.value)} name="description" />
     </div>
     <div>

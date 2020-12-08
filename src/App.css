@@ -11,10 +11,10 @@
   
 }
 .input {
-min-width: 90px;
+min-width: 100px;
 }
 input{
-  min-width: 300px;
+  min-width: 350px;
 }
 .movie{
   color: black;
